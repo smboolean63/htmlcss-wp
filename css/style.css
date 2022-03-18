@@ -1,0 +1,93 @@
+/*------------
+    Reset
+-------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------------
+    Commons
+-------------*/
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*------------
+    Debug
+-------------*/
+.debug header {
+    background-color: magenta;
+    min-height: 150px;
+}
+
+.debug .hero {
+    background-color: #e1d67a;
+    min-height: 500px;
+}
+
+.debug .leadership {
+    background-color: #0086ff;
+}
+.debug .leadership-title {
+    background-color: lightblue;
+    min-height: 100px;
+}
+
+.debug .col {
+    background-color: lightblue;
+    min-height: 300px;
+}
+
+.debug footer {
+    background-color: purple;
+    min-height: 60px;
+}
+
+/*------------
+    Header
+-------------*/
+header {
+    margin-bottom: 20px;
+}
+
+/*------------
+    Main
+-------------*/
+.hero {
+    margin-bottom: 20px;
+}
+
+.columns {
+    margin: 15px 0;
+}
+
+/* .col-left, .col-middle, .col-right {
+    float: left;
+}
+
+.col-left, .col-right {
+    width: 20%;
+}
+
+.col-middle {
+    width: calc(60% - 40px);
+    margin: auto 20px;
+} */
+
+.col {
+    float: left;
+    width: 20%;
+}
+
+.col-big {
+    width: calc(60% - 40px);
+    margin: auto 20px;
+}
