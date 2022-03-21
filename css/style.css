@@ -157,3 +157,17 @@ header {
     display: block;
     object-fit: cover;
 }
+
+/*------------
+    Footer
+-------------*/
+
+footer {
+    text-align: center;
+    color: #000;
+    padding: 15px 0;
+}
+
+.heart {
+    color: red;
+}
