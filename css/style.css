@@ -8,6 +8,14 @@
 }
 
 /*------------
+    Typo
+-------------*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #8A8A8A;
+}
+
+/*------------
     Commons
 -------------*/
 .container {
@@ -56,6 +64,26 @@
 -------------*/
 header {
     margin-bottom: 20px;
+}
+
+.logo img {
+    height: 80px;
+    padding-right: 20px;
+    border-right: 1px solid #e5e5e5;
+}
+
+.main-nav {
+    padding: 25px 0;
+    font-size: 18px;
+}
+.main-nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.main-nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
 }
 
 /*------------
